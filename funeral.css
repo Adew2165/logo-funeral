@@ -1,0 +1,42 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(148, 10, 10);
+    color: white;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 25px;
+}
+
+.cruel {
+    font-style: italic;
+    font-weight: bolder;
+    color: black;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.pringles {
+    margin-top: 50px;
+}
+
+.logos-affected {
+    margin-bottom: 75px;
+    background: whitesmoke;
+    color: #333;
+}
+
+.petco {
+    margin-top: 50px;
+}
